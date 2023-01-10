@@ -196,25 +196,15 @@ function diaDeLaSemana(numeroDeDia) {
   switch (numeroDeDia)
   {
     case 1:
+    case 7:
       return "Es fin de semana";
       break;
     case 2:
-      return "Es dia Laboral";
-      break;
     case 3:
-      return "Es dia Laboral";
-      break;
     case 4:
-      return "Es dia Laboral";
-      break;
     case 5:
-      return "Es dia Laboral";
-      break;
     case 6:
       return "Es dia Laboral";
-      break;
-    case 7:
-      return "Es fin de semana";
       break;
   }  
 } 
