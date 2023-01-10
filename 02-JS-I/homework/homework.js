@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "hola";
+const nuevaString = "Hello";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 1;
@@ -239,8 +239,7 @@ function esVocal(letra){
   //Si no es vocal, también debe devolver "Dato incorrecto".
   //Escribe tu código aquí
 
-  if (letra.length > 1) return "Dato incorrecto";
-  else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") return "Es vocal";
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") return "Es vocal";
   else return "Dato incorrecto";
 }
 
